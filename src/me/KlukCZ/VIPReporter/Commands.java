@@ -58,7 +58,7 @@ public class Commands implements CommandExecutor {
                 }
 
                 for (Player online : Bukkit.getOnlinePlayers()){
-                    if (online.hasPermission("vipbans.admin")){
+                    if (online.hasPermission("vipreporter.admin")){
                         online.sendMessage(" ");
                         online.sendMessage(" ");
                         online.sendMessage("§6§lVIPReporter> §9§l" + reported.getName() + "§7 report log");
@@ -78,10 +78,10 @@ public class Commands implements CommandExecutor {
                         }else{
                             online.sendMessage("§6§lOpped> §9§lFalse");
                         }
-                        sender.sendMessage("§6§lVIPReporter> §9§l" + args[0] + "§7 has been reported successfully!");
-                        return true;
                     }
                 }
+                sender.sendMessage("§6§lVIPReporter> §9§l" + args[0] + "§7 has been reported successfully!");
+                return true;
             }
 
         }catch (Exception e){

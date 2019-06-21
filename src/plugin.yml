@@ -12,6 +12,6 @@ commands:
     usage: /<command>
 
 permissions:
-  vipbans.admin:
+  vipreporter.admin:
     description: Admin permission
     default: op
