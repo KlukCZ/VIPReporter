@@ -1,0 +1,17 @@
+main: me.KlukCZ.VIPReporter.Main
+version: 1.0
+name: VIPReporter
+
+commands:
+  report:
+    description: Reports a player
+    usage: /<command>
+
+  vipreporter:
+    description: VIPReporter main command
+    usage: /<command>
+
+permissions:
+  vipbans.admin:
+    description: Admin permission
+    default: op
