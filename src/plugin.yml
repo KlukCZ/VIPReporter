@@ -1,6 +1,7 @@
 main: me.KlukCZ.VIPReporter.Main
-version: 1.0
+version: 1.3.5
 name: VIPReporter
+api-version: 1.13
 
 commands:
   report:
@@ -9,6 +10,10 @@ commands:
 
   vipreporter:
     description: VIPReporter main command
+    usage: /<command>
+
+  checkreport:
+    description: Checks players report log
     usage: /<command>
 
 permissions:
