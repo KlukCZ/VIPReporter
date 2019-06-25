@@ -43,7 +43,7 @@ public class Commands implements CommandExecutor {
                     sender.sendMessage("§6§l> §7Shows info about the plguin");
                     sender.sendMessage(" ");
                     sender.sendMessage("§7/report §9§l[Player] §2§l<Reason>");
-                    sender.sendMessage("§6§l> §7Shows info about the plguin");
+                    sender.sendMessage("§6§l> §7Reports selected player");
                     return true;
                 }
             }
